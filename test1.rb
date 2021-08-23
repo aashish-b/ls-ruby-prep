@@ -1,6 +1,10 @@
-y = 0
-3.times do
-  y += 1
-  x = y
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else
+    puts "nope"
+  end
 end
-puts x
+
+equal_to_four(5)
